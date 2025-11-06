@@ -49,9 +49,3 @@ jobs:
       with:
         name: build.zip
         path: build.zip
-    
-      shell: bash
-      env:
-        SSH_KEY: ${{secrets.ID_ECDSA}}
-        SSH_KEY_PUB: ${{secrets.ID_ECDSA_PUB}}
-
